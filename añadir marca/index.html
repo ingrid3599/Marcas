@@ -65,7 +65,9 @@
       <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
           
-		   <span class="mdl-layout-title">Inicio Marca</span>
+		   <span>
+		   <font size="20" face="algerian" color="Navy" >INICIO MARCA </font>
+		   </span>
           
         </div>
       </header>
@@ -92,11 +94,16 @@
         <div class="mdl-grid demo-content">
 		
 		<div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-           
-            <img src="images/marca.png"  class="demo-marcas">
-		   <span class="mdl-layout-title">MARKUP</span>
-            
-				
+               <img src="images/marca.png"  class="demo-marcas">
+		   
+		<span>
+		   <font size="20" face="ravie" color="#87D2FB" >M</font>
+		   <font size="20" face="ravie" color="#6BB3EA" >A</font>
+		   <font size="20" face="ravie" color="#4E9CD7" >R</font>
+		   <font size="20" face="ravie" color="#3380BA" >K</font>
+		   <font size="20" face="ravie" color="#2772AB" >U</font>
+		   <font size="20" face="ravie" color="#1B6095" >P</font>
+		</span> 
           </div>
 		
           <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
@@ -158,10 +165,28 @@
 					</div>
 			</form>
              
-               <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-				Añadir
-				</button>
-               
+			 <html> 
+				<head> 
+					<title>Confirmacion de nueva marca</title> 
+						<script language="JavaScript"> 
+							function confirmacion(){ 
+								if (confirm('Comfirmacion de nueva marca')){ 
+								document.tuformulario.submit() 
+								} 
+							} 
+						</script> 
+				</head> 
+				
+				<body> 
+					<form name=tuformulario action="http://www.google.com"> 
+						<input type=button onclick="confirmacion()" value="Añadir" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> 
+					</form> 
+
+				</body> 
+				
+				
+
+			</html>   
            </div>
                 </ul>
               </div>
