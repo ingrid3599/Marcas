@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Marca </title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.cyan-light_blue.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+
+</head>
+
+<body>
+	
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      
+      <span class="mdl-layout-title">Mark UP</span>
+      <div class="mdl-layout-spacer"></div>
+      
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Marca</a>
+		<button id="gesbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons" role="presentation">arrow_drop_down</i>
+        <span class="visuallyhidden">Accounts</span>
+        Gestionar Marca
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="gesbtn">
+          <li class="mdl-menu__item">Editar Marca</li>
+          <li class="mdl-menu__item">Dividir Marca</li>
+          <li class="mdl-menu__item">Añadir Marca</li>
+        </ul>
+        <a class="mdl-navigation__link" href="">Contacto</a>
+        <a class="mdl-navigation__link" href="">Ayuda</a>
+      </nav>
+    </div>
+	
+
+  </header>
+	
+	
+	<main class="mdl-layout__content">
+		
+		<div class="mdl-typography--text-center">
+
+			<div class="android-font android-create-character">
+       		<a href=""><img src="images/marcas.gif"> </a>
+     		</div>	
+
+			<div class="mdl-grid">
+  				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+  				
+
+					<form action="#">
+ 						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    						<input class="mdl-textfield__input" type="text" id="nomemp">
+  							<label class="mdl-textfield__label" for="nomemp">Nombre Marca</label>
+						</div>
+					</form>
+				
+					<form action="#">
+ 						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    						<input class="mdl-textfield__input" type="text" id="desmarca">
+  							<label class="mdl-textfield__label" for="desmarca">Descripcion Marca</label>
+						</div>
+					</form>
+					
+
+  				</div>
+
+
+  				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+
+					<form action="#">
+ 						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    						<input class="mdl-textfield__input" type="text" id="comen">
+  						  	<label class="mdl-textfield__label" for="comen">Comentarios</label>
+						</div>
+					</form>
+
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+  					<textarea class="mdl-textfield__input" type="text" rows= "3" maxrows= "6" id="eventos"></textarea>
+  					<label class="mdl-textfield__label" for="Eventos">Eventos</label>
+					</div>
+
+  				</div>
+
+  				
+
+			</div>	
+
+		 </div>
+
+
+		
+	</main>
+
+
+
+</body>
+
+
+</html>
