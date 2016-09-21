@@ -1,0 +1,153 @@
+<!doctype html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>MARKUP</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo-marca.jpg">
+          </span>
+                
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo-marca.jpg">
+          </span>
+        </div>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Añadir Marca</div>
+          
+		 <!--formulario añadir marca--> 
+		  
+	<center>
+	<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+		<center>  <!-- username -->
+		<div class="mdl-card__actions mdl-card--border">
+			
+
+		</div>
+			
+		<form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      
+        <input class="mdl-textfield__input" type="text" id="user"  pattern="[a-zA-Z0-9]+">
+					<label class="mdl-textfield__label" for="user">Nombre</label> 
+					</div>
+    </form>
+    <br>
+    <!-- Password -->
+    <form action="#">
+     <div class="demo-avatar-dropdown">
+				<span><font size="3" face="arial" color="#CFCECE" >Categoria</font></span>
+			<div class="mdl-layout-spacer"></div>
+				
+				<select name="OS" >
+				
+					<option value="1">Seleccionar</option> 
+					<option value="2">pgs</option> 
+					<option value="3">textil</option>
+					<option value="10">electro</option> 
+					<option value="11">bazar</option> 
+					<option value="12">Perecederos</option> 
+				</select>
+				
+			</div>
+    </form>
+    <br>
+    <br>
+  	
+	  <div class="demo-avatar-dropdown">
+				<form action="file2.php" method="post" enctype="multipart/form-data">
+				<span><font size="3" face="arial" color="#CFCECE" >Logo</font></span><br />
+				<br>
+				<input type="file" name="archivo_foto"><br>
+				</form>
+			</div> 
+ 
+	<br>
+    <br>
+
+		<div class="demo-avatar-dropdown">
+
+			<body>
+
+              <form action="file2.php" method="post" enctype="multipart/form-data">
+				<span><font size="3" face="arial" color="#CFCECE" >Portada</font></span><br />
+				<br>
+				<input type="file" name="archivo_foto"><br>
+				</form>
+			</body> 
+ </div> 
+<br>
+ <br>
+ 
+ 	<span>
+		   <font size="3" face="arial" color="#CFCECE" >Descripción </font>
+		  
+		</span> 
+ <form action="#">
+      <div>
+		<textarea  type="text" id="descripcion" maxlength="300" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"name="comentarios" rows="10" cols="40"></textarea>
+		
+		</div>
+    </form>
+	<br>
+   <br>
+ <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Añadir
+</button>
+ 
+  </center>
+<br>
+<br>
+  </center>
+<br>
+<br>
+
+</div>
+</center>
+		  
+
+        </div>      
+            
+          </div>
+        </div>
+
+         
+
+        </footer>
+      </div>
+    </div>
+    
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  </body>
+</html>
