@@ -100,10 +100,10 @@
 
 			<body>
 
-              <form action="file2.php" method="post" enctype="multipart/form-data">
-				<span><font size="3" face="arial" color="#CFCECE" >Portada</font></span><br />
+              <form action="file2.php" method="post" enctype="multipart/form-data" >
+				<span><font size="3" face="arial" color="#CFCECE"  >Portada</font></span><br />
 				<br>
-				<input type="file" name="archivo_foto"><br>
+				<input type="file" name="archivo_foto" ><br>
 				</form>
 			</body> 
  </div> 
@@ -122,9 +122,28 @@
     </form>
 	<br>
    <br>
- <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-  Añadir
-</button>
+ <html> 
+				<head> 
+					<title>Confirmacion de nueva marca</title> 
+						<script language="JavaScript"> 
+							function confirmacion(){ 
+								if (confirm('la Nueva Marca Se ha Añadido Exitosamente')){ 
+								document.tuformulario.submit() 
+								} 
+							} 
+						</script> 
+				</head> 
+				
+				<body> 
+					<form name=tuformulario action="file:///C:/Users/VELANDIAFUENTESINGRI/Documents/2016%20-%202/Practica/Marcas/a%C3%B1adir%20marca%20nueva%20interfaz/index.html"> 
+						<input type=button onclick="confirmacion()" value="Añadir" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"> 
+					</form> 
+
+				</body> 
+				
+				
+
+			</html> 
  
   </center>
 <br>
